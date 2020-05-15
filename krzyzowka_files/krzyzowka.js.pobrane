@@ -21,19 +21,19 @@ $( document ).ready(function() {
   ]
 
   var answers = [
-    'TERESA',
-    'PARYŻ',
-    'GENÓW',
-    'WOJTOSZE',
-    'ZŁOTOGŁOWIEC',
-    'DZIEWIĘĆSET',
-    'JERZY',
-    'SZEŚĆSET',
-	'SZAŃCE',
-	'BUNDZ',
-	'CIERNE',
-	'PTAK',
-    'PAINTBALL'
+    'teresa',
+    'paryż',
+    'genów',
+    'wojtosze',
+    'złotogłowiec',
+    'dziewięćset',
+    'jerzy',
+    'sześćset',
+	'szańce',
+	'bundz',
+	'cierne',
+	'ptak',
+    'paintball'
   ]
 
   var mainAnswer = 'TRÓJWIEŚCZEKA'
