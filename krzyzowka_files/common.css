@@ -1,0 +1,180 @@
+body {
+  background: none;
+  font-family: 'museo700regular';
+  min-height: 100%;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+}
+@font-face {
+  font-family: 'museo700regular';
+  src: url('../fonts/museo/museo700regular.eot');
+  src: local('museo700regular'), url('../fonts/museo/museo700regular.woff') format('woff'), url('../fonts/museo/museo700regular.ttf') format('truetype');
+}
+
+/*.full {
+  background: url(http://placehold.it/1920x1080) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.title {
+  right: 0px;
+  top: 5%;
+  position: absolute;
+  font-size: 32px;
+  padding: 4px 80px 4px 22px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+/*modal*/
+.modal-backdrop.fade {
+opacity: 0;
+filter: alpha(opacity=0);
+}
+.modal-backdrop.in {
+opacity: 0.0;
+filter: alpha(opacity=0);
+}
+.modal-interactive-whiteboard {
+  color: #414142;
+  padding: 20px;
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border-color: transparent;
+}
+.modal-interactive-whiteboard h1 {
+  text-align: center;
+}
+
+.btn-lg {
+  width: 170px;
+  height: 68px;
+  margin: 3px;
+}
+.orange {
+  background: #fd6812;
+  border: 1px solid transparent;
+}
+.blue {
+  background: #38c0ed;
+  border: 1px solid transparent;
+}
+
+@media (max-width:1024px) {
+  .title {
+    padding: 4px 10px;
+  }
+}
+
+.disable {
+  display: none;
+}
+
+.normal-cursor {
+  cursor: auto !important;
+}
+
+.buttons-sidebar {
+  right: 0px;
+  top: 5%;
+  position: absolute;
+}
+@media (max-width:1280px) {
+  .buttons-sidebar {
+    display: none;
+  }
+}
+.buttons-sidebar .btn-lg {
+  margin: 2px 0;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.question-main {
+  background: #eee7d3;
+  padding: 20px 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin: 2px 0;
+  font-size: 18px;
+  color: #414142;
+}
+.question-main .question-text {
+  /*font-size: 22px;*/
+}
+@media (max-width: 1024px) {
+  .question-main .question-text {
+    font-size: 15px;
+  }
+  .question-main {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+}
+.question-main table {
+  width: 100%;
+}
+.question-main .question-number, .question-main .question-sum {
+  display: inline-block;
+}
+
+.main-color {
+  background: #FD6812 !important;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.main-baner-kluczak {
+  background: #fff !important;
+  color: #000;
+  border: 1px solid transparent;
+  padding: 4px 80px 4px 22px;
+  top:88%;
+}
+
+
+.second-color {
+  background: #38C0ED !important;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.second-color-reverse {
+  background: #fff;
+  color: #38C0ED;
+}
+
+.main-color.btn-success:hover {
+  background: #FD6812;
+}
+.main-color.btn-success.disabled {
+  background: #FD6812;
+}
+
+.second-color.btn-success:hover {
+  background: #38C0ED;
+}
+
+.second-color.btn-success.disabled {
+  background: #38C0ED;
+}
