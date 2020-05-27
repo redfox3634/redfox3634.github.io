@@ -70,7 +70,7 @@ filter: alpha(opacity=0);
   border: 1px solid transparent;
 }
 .blue {
-  background: #38c0ed;
+  background: #4679c2;
   border: 1px solid transparent;
 }
 
@@ -155,13 +155,13 @@ filter: alpha(opacity=0);
 
 
 .second-color {
-  background: #38C0ED !important;
+  background: #4679c2 !important;
   color: #fff;
   border: 1px solid transparent;
 }
 .second-color-reverse {
   background: #fff;
-  color: #38C0ED;
+  color: #4679c2;
 }
 
 .main-color.btn-success:hover {
@@ -172,9 +172,9 @@ filter: alpha(opacity=0);
 }
 
 .second-color.btn-success:hover {
-  background: #38C0ED;
+  background: #4679c2;
 }
 
 .second-color.btn-success.disabled {
-  background: #38C0ED;
+  background: #4679c2;
 }
